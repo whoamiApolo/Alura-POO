@@ -14,10 +14,10 @@ const contaCorrente = new ContaCorrente(clienteZeroUm, 1001, 0);
 const contaPoupanca = new ContaPoupanca(0, clienteZero, 2001);
 const contaSalario = new ContaSalario(clienteZeroUm);
 
-console.log(clienteZero);
+/* console.log(clienteZero);
 console.log(contaCorrente);
 console.log(contaPoupanca);
-console.log(contaSalario);
+console.log(contaSalario); */
 
 contaCorrente.deposit(9999);
 contaPoupanca.deposit(7777);
@@ -45,3 +45,8 @@ const clienteLogado = SistemaAutenticacao.login(clienteZero, 123);
 console.log(
   `Todos estão logados e foram autenticados: ${gerenteLogou}, ${diretorLogou}, ${clienteLogado}`
 );
+
+console.log(clienteZero);
+console.log(contaCorrente);
+console.log(contaPoupanca);
+console.log(contaSalario);
